@@ -65,6 +65,17 @@ header li {
     /*padding: top right bottom left */
 }
 
+header .current {
+    font-weight: bold;
+    font-style: underline;
+    background-color: rgb(0, 126, 0);
+    border-radius: 4px;
+}
+
+header .current:hover {
+    background-color: #000000;
+}
+
 header #branding {
     float: left;
 }
@@ -151,4 +162,30 @@ input[type=email] {
 #messageDiv {
     float: left;
     width: 45%;
+}
+
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img {
+    width: 100%;
+}
+
+footer {
+    padding: 5px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: #000;
+    text-align: center;
 }
